@@ -1,0 +1,28 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Собранный бандл — артефакт, пересобирается через ./build_app.sh
+AutoScan.app/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# Подписи и секреты
+*.p12
+*.pem
+*.cer
+*.mobileprovision
+.env
+.env.*
+
+# Прочее
+*.log
