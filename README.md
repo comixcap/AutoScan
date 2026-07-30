@@ -118,7 +118,7 @@ Anything the app could not read goes into an explicit **"could not be read"** se
 
 **OBD-II modes implemented:** 01 (live data + capability masks), 02 (freeze frame), 03/07/0A (confirmed / pending / permanent codes), 04 (erase), 06 (on-board tests including per-cylinder misfire counters), 09 (VIN, calibration ID, CVN, ECU name, in-use performance counters).
 
-**Fault code database:** 92 codes with bilingual plain-language explanations and severity. Unknown codes are decoded *structurally* — system from the leading letter, generic vs manufacturer from the second digit, subsystem from the group — so the app never shows a bare code with no meaning.
+**Fault code database:** ~100 codes with bilingual plain-language explanations and severity. Unknown codes are decoded *structurally* — system from the leading letter, generic vs manufacturer from the second digit, subsystem from the group — so the app never shows a bare code with no meaning.
 
 **PDF reports** are laid out page by page in CoreGraphics: A4, manual pagination, headings, key-value rows and automatic page breaks.
 
@@ -149,7 +149,7 @@ Tools/
 
 ## Scale
 
-21 Swift files · ~6,300 lines · 3 transports · 7 OBD-II modes · 62 PIDs · 92 fault codes · 2 languages
+22 Swift files · ~6,300 lines · 3 transports · 7 OBD-II modes · 62 PIDs · 92 fault codes · 2 languages
 
 ## Known trade-offs
 
